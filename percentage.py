@@ -2,9 +2,16 @@ print("Enter Marks Obtained in 4 Subjects")
 math =int(input("maths:"))
 english =int(input("english:"))
 science =int(input("science:"))
-hindi =int(input("hindi:"))
-sum = math+english+science+hindi
-print("sum of math,english,science and hindi:" ,sum)
-perc = (sum/400)*100
+spanish =int(input("spanish:"))
+history =int(input("history:"))
+french =int(input("french:"))
+music =int(input("music:"))
+arts =int(input("arts:"))
+pe =int(input("pe:"))
+religion =int(input("religion:"))
+elective =int(input("elective:"))
+sum = math+english+science+spanish+history+french+music+arts+pe+religion+elective
+print("sum of math,english,science,spanish,history,french,music,arts,pe,religion and elective:" ,sum)
+perc = (sum/1100)*100
 print(end="Percentage Mark = ")
 print(perc)
